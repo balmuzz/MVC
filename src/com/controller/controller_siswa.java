@@ -10,9 +10,5 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 public interface controller_siswa {
     public void Simpan (form_siswa siswa) throws SQLException;
-    public void Baru (form_siswa siswa) throws SQLException;
-    public void Ubah (form_siswa siswa) throws SQLException;
-    public void Hapus (form_siswa siswa) throws SQLException;
-     public void tampil (form_siswa siswa) throws SQLException;
-     public void kliktable (form_siswa siswa) throws SQLException;
+
 }
